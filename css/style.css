@@ -18,13 +18,20 @@
     padding: 0 20px;
 }
 
+.all-title {
+    color: #121212;
+    font-weight: 700;
+    font-size: 45px;
+}
+
 /* ----header section style here */
 .header-bg {
     background-image: url('../images/donation4.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 670px;
-    /* background: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%); */
+    margin-bottom: 130px;
+    /* background: linear-gradient(360deg, #121212fb 0%, rgba(18, 18, 18, 0) 100%); */
 }
 
 .header {
@@ -44,4 +51,123 @@
     font-size: 18px;
     line-height: 28px;
     margin-bottom: 30px;
+}
+
+/* Donate Today style start here */
+.Donate-today {
+    text-align: center;
+}
+
+.donate-title {}
+
+.donate-description {
+    color: #707070;
+    font-size: 18px;
+    line-height: 28px;
+    margin: 20px 375px 50px;
+}
+
+.amount {
+    display: flex;
+    padding: 0 335px 0 335px;
+    justify-content: space-around;
+    gap: 22px;
+}
+
+.amount-bg {
+    background: #f0f0f0;
+    border-radius: 5px;
+    width: 130px;
+    height: 130px;
+    /* box-shadow:box-shadow: 10px 10px 8px #707070 ; */
+}
+
+.amount-bg:hover {
+    color: #FF5959;
+    background-color: #FFEEEE;
+
+}
+
+.hover-bg:active {
+    background: #f0f0f0;
+}
+
+.donate-amount {
+    padding-top: 47px;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.amount-input {
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+
+hr {
+    margin: 0 335px 30px 335px;
+}
+
+.amount-btn {
+    margin-bottom: 130px;
+}
+
+/* ---- Our Donate Plan style start */
+.donate-plan {
+    text-align: center;
+}
+
+.donate-plan-description {
+    color: #707070;
+    font-size: 18px;
+    line-height: 28px;
+    margin: 20px 375px 50px 375px;
+}
+
+.donate-item {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    margin-bottom: 130px;
+}
+
+.food-bg {
+    width: 360px;
+    height: 352px;
+    background: rgba(79, 157, 166, 0.1);
+    border-radius: 5px;
+}
+
+.selter-bg {
+    width: 360px;
+    height: 352px;
+    background: rgba(255, 89, 89, 0.1);
+    border-radius: 5px;
+}
+.education-bg{
+    width: 360px;
+    height: 352px;
+    background: #FFF4D6;
+    border-radius: 5px;
+}
+
+.icon-item {
+    width: 58.13px;
+    height: 49.77px;
+    padding: 64px 0 32px 23px;
+}
+
+.all-sub-title {
+    color: #121212;
+    font-weight: 600;
+    font-size: 24px;
+    padding-bottom: 16px;
+    padding-left: 23px;
+}
+
+.item-description {
+    color: #707070;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: justify;
+    padding: 0 22px 50px 23px;
 }
